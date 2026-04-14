@@ -1,0 +1,12 @@
+{
+  "name": "ecommerce-databricks-bronze",
+  "destinationDefinitionId": "databricks",
+  "configuration": {
+    "databricks_server_hostname": "<workspace-host>",
+    "databricks_http_path": "<sql-warehouse-http-path>",
+    "databricks_personal_access_token": "<token>",
+    "database_schema": "bronze",
+    "purge_staging_data": true,
+    "accept_terms": true
+  }
+}

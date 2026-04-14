@@ -1,0 +1,38 @@
+{
+  "name": "postgres-ecommerce-to-databricks-bronze",
+  "source": "ecommerce-postgres",
+  "destination": "ecommerce-databricks-bronze",
+  "namespaceDefinition": "customformat",
+  "namespaceFormat": "bronze",
+  "prefix": "",
+  "schedule": {
+    "scheduleType": "cron",
+    "cronExpression": "0 0 * * * ?",
+    "cronTimeZone": "UTC"
+  },
+  "streams": [
+    {
+      "name": "customers",
+      "destination_table": "customers_raw",
+      "sync_mode": "incremental",
+      "cursor_field": ["created_at"]
+    },
+    {
+      "name": "orders",
+      "destination_table": "orders_raw",
+      "sync_mode": "incremental",
+      "cursor_field": ["order_date"]
+    },
+    {
+      "name": "order_items",
+      "destination_table": "order_items_raw",
+      "sync_mode": "full_refresh"
+    },
+    {
+      "name": "payments",
+      "destination_table": "payments_raw",
+      "sync_mode": "incremental",
+      "cursor_field": ["paid_at"]
+    }
+  ]
+}

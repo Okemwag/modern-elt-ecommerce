@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-csv-reference-files",
+  "sourceDefinitionId": "file",
+  "configuration": {
+    "dataset_name": "ecommerce_reference_data",
+    "format": "csv",
+    "provider": {
+      "storage": "HTTPS",
+      "user_agent": false
+    },
+    "url": "<csv-file-url>"
+  }
+}

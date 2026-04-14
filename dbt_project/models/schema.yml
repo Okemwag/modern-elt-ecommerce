@@ -1,0 +1,230 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Cleaned customer records from raw Airbyte customer data.
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+      - name: email
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: Cleaned order records with standardized order and payment statuses.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: order_status
+        tests:
+          - accepted_values:
+              values: ['pending', 'completed', 'cancelled', 'returned']
+      - name: payment_status
+        tests:
+          - accepted_values:
+              values: ['pending', 'paid', 'failed', 'refunded']
+      - name: gross_amount
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: stg_order_items
+    description: Cleaned line item records.
+    columns:
+      - name: order_item_id
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_orders')
+              field: order_id
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_products')
+              field: product_id
+      - name: quantity
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "> 0"
+      - name: unit_price
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: discount_amount
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: stg_payments
+    description: Cleaned payment records with standardized payment statuses.
+    columns:
+      - name: payment_id
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_orders')
+              field: order_id
+      - name: payment_status
+        tests:
+          - accepted_values:
+              values: ['pending', 'paid', 'failed', 'refunded']
+      - name: payment_amount
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: stg_products
+    description: Cleaned product reference data.
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+      - name: category_id
+        tests:
+          - relationships:
+              to: ref('stg_categories')
+              field: category_id
+      - name: list_price
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: stg_categories
+    description: Cleaned category reference data.
+    columns:
+      - name: category_id
+        tests:
+          - not_null
+          - unique
+      - name: category_name
+        tests:
+          - not_null
+
+  - name: stg_regions
+    description: Cleaned region reference data.
+    columns:
+      - name: region_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_customers
+    description: One row per customer with lifecycle and value attributes.
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_products
+    description: One row per product enriched with category fields.
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_regions
+    description: One row per shipping or sales region.
+    columns:
+      - name: region_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fct_orders
+    description: One row per order with gross, net, payment, and fulfillment status fields.
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+      - name: region_id
+        tests:
+          - relationships:
+              to: ref('dim_regions')
+              field: region_id
+
+  - name: fct_order_items
+    description: One row per order line item with calculated gross and net line amount.
+    columns:
+      - name: order_item_id
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        tests:
+          - relationships:
+              to: ref('fct_orders')
+              field: order_id
+      - name: product_id
+        tests:
+          - relationships:
+              to: ref('dim_products')
+              field: product_id
+
+  - name: fct_payments
+    description: One row per payment.
+    columns:
+      - name: payment_id
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        tests:
+          - relationships:
+              to: ref('fct_orders')
+              field: order_id
+
+  - name: mart_monthly_revenue
+    description: Revenue KPIs aggregated by month.
+    columns:
+      - name: revenue_month
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_top_products
+    description: Product sales and revenue performance.
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_repeat_customers
+    description: Customer repeat purchase segmentation.
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_category_performance
+    description: Category sales and revenue performance.

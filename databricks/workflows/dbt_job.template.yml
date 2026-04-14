@@ -1,0 +1,17 @@
+name: ecommerce-elt-dbt-build
+tasks:
+  - task_key: dbt_deps
+    dbt_task:
+      project_directory: /Workspace/Repos/<user>/modern-elt-ecommerce/dbt_project
+      commands:
+        - dbt deps
+    existing_cluster_id: <cluster-id>
+
+  - task_key: dbt_build
+    depends_on:
+      - task_key: dbt_deps
+    dbt_task:
+      project_directory: /Workspace/Repos/<user>/modern-elt-ecommerce/dbt_project
+      commands:
+        - dbt build
+    existing_cluster_id: <cluster-id>

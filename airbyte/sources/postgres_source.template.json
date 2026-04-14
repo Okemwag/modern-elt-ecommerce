@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-postgres",
+  "sourceDefinitionId": "postgres",
+  "configuration": {
+    "host": "<postgres-host>",
+    "port": 5432,
+    "database": "ecommerce",
+    "schemas": ["public"],
+    "username": "<postgres-username>",
+    "password": "<postgres-password>",
+    "replication_method": {
+      "method": "Standard"
+    }
+  }
+}

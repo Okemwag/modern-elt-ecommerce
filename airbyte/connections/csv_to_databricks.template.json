@@ -1,0 +1,27 @@
+{
+  "name": "csv-reference-data-to-databricks-bronze",
+  "source": "ecommerce-csv-reference-files",
+  "destination": "ecommerce-databricks-bronze",
+  "namespaceDefinition": "customformat",
+  "namespaceFormat": "bronze",
+  "schedule": {
+    "scheduleType": "manual"
+  },
+  "streams": [
+    {
+      "name": "products",
+      "destination_table": "products_raw",
+      "sync_mode": "full_refresh"
+    },
+    {
+      "name": "categories",
+      "destination_table": "categories_raw",
+      "sync_mode": "full_refresh"
+    },
+    {
+      "name": "regions",
+      "destination_table": "regions_raw",
+      "sync_mode": "full_refresh"
+    }
+  ]
+}
