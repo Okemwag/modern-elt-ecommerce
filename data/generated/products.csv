@@ -1,0 +1,261 @@
+product_id,product_name,category_id,brand,unit_cost,list_price
+1,Flex Storage Bin 1,2,Astra,27.21,57.40
+2,Bold Seed Kit 2,12,VividLoop,173.28,276.79
+3,Travel Seed Kit 3,12,BlueCove,74.38,120.45
+4,Classic Car Vacuum 4,11,TerraForm,7.33,13.33
+5,Active Serum 5,4,BlueCove,9.20,13.09
+6,Travel Olive Oil 6,8,SokoWorks,87.92,168.81
+7,Max Puzzle 7,7,Northline,218.93,442.35
+8,Heritage Tool Kit 8,11,Astra,64.09,137.97
+9,Fresh Sunscreen 9,4,Northline,76.64,124.01
+10,Wireless Jacket 10,3,BlueCove,234.88,440.28
+11,Everyday Desk Chair 11,9,TerraForm,55.91,93.31
+12,Pro Desk Organizer 12,9,FreshFold,162.59,316.88
+13,Classic Pen Set 13,9,Astra,183.03,305.14
+14,Outdoor Headphones 14,1,Atlas,42.09,116.18
+15,Max Pruner 15,12,Everly,114.00,201.51
+16,Lite Backpack 16,3,Everly,50.82,129.06
+17,Flex Desk Organizer 17,9,Astra,213.89,430.41
+18,Smart Pruner 18,12,VividLoop,148.62,386.45
+19,Fresh Doll 19,7,BlueCove,117.75,182.95
+20,Classic Yoga Mat 20,5,UrbanNest,157.74,242.55
+21,Bold Mug Set 21,2,Luma,208.29,403.34
+22,Essential Speaker 22,1,BrightCart,141.72,319.45
+23,Lite Tool Kit 23,11,Astra,21.95,53.33
+24,Lite Headphones 24,1,Atlas,90.02,159.76
+25,Everyday Cookware Set 25,2,BlueCove,113.02,199.93
+26,Wireless Keyboard 26,1,BrightCart,58.65,97.91
+27,Active Mug Set 27,2,TerraForm,30.18,46.49
+28,Lite Keyboard 28,1,Luma,252.41,383.32
+29,Eco Dumbbell 29,5,UrbanNest,191.37,287.42
+30,Compact Tablet Stand 30,1,NovaWear,164.09,242.86
+31,Fresh Cookbook 31,6,Kibo,71.71,125.26
+32,Premium Tea Box 32,8,BlueCove,28.87,43.65
+33,Heritage Notebook 33,6,TerraForm,85.18,149.37
+34,Core Gym Bag 34,5,Atlas,191.09,396.46
+35,Heritage Headphones 35,1,Atlas,45.03,71.88
+36,Core Seed Kit 36,12,Luma,201.17,329.06
+37,Heritage Cookbook 37,6,Mavuno,29.99,48.11
+38,Travel Moisturizer 38,4,Astra,176.49,299.75
+39,Pro Mug Set 39,2,Luma,135.74,330.58
+40,Fresh T-Shirt 40,3,FreshFold,15.40,23.44
+41,Premium Board Game 41,7,Luma,86.06,192.77
+42,Flex Jacket 42,3,FreshFold,95.36,166.22
+43,Eco Planter 43,12,Luma,212.74,446.96
+44,Core Planter 44,12,TerraForm,122.87,328.55
+45,Classic Gym Bag 45,5,Northline,309.31,447.57
+46,Wireless Keyboard 46,1,Kibo,173.79,384.41
+47,Flex Jump Starter 47,11,UrbanNest,61.21,97.27
+48,Fresh Desk Chair 48,9,Kibo,20.34,36.43
+49,Classic Phone Mount 49,11,BrightCart,53.32,139.04
+50,Compact Training Shoes 50,5,NovaWear,223.73,344.95
+51,Wireless Keyboard 51,1,PeakHome,18.31,44.93
+52,Essential Blender 52,2,Atlas,156.69,375.08
+53,Heritage Notebook 53,6,SokoWorks,153.15,375.90
+54,Studio Phone Mount 54,11,TerraForm,187.23,401.19
+55,Fresh Phone Mount 55,11,Astra,132.00,259.96
+56,Smart Speaker 56,1,Mavuno,209.53,351.04
+57,Smart Guidebook 57,6,Northline,138.72,214.84
+58,Wireless Journal 58,6,SokoWorks,96.46,209.19
+59,Flex Jacket 59,3,Everly,157.11,404.23
+60,Eco Backpack 60,3,Luma,73.50,153.91
+61,Premium Solar Light 61,12,Kibo,141.27,241.46
+62,Pro Cookware Set 62,2,NovaWear,138.49,350.18
+63,Premium Tool Kit 63,11,Kibo,167.07,333.55
+64,Studio Desk Organizer 64,9,PeakHome,64.15,89.51
+65,Travel Puzzle 65,7,UrbanNest,29.84,66.54
+66,Studio Gym Bag 66,5,Northline,27.44,46.93
+67,Fresh Training Shoes 67,5,BlueCove,160.99,318.25
+68,Active Leash 68,10,Everly,90.52,157.34
+69,Premium Pet Bed 69,10,Mavuno,132.20,297.58
+70,Heritage Training Shoes 70,5,VividLoop,206.04,409.21
+71,Premium Serum 71,4,Kibo,141.92,198.18
+72,Core RC Car 72,7,TerraForm,17.14,47.79
+73,Pro Food Bowl 73,10,NovaWear,228.46,349.77
+74,Flex Watch 74,3,BlueCove,74.55,118.46
+75,Eco Desk Organizer 75,9,NovaWear,91.42,189.30
+76,Wireless Tea Box 76,8,Astra,77.75,146.02
+77,Lite Water Bottle 77,5,NovaWear,217.40,359.52
+78,Outdoor Treat Pack 78,10,SokoWorks,56.00,88.58
+79,Smart Keyboard 79,1,Astra,169.29,436.94
+80,Max Snack Pack 80,8,BlueCove,46.12,94.08
+81,Outdoor Pet Bed 81,10,Mavuno,50.27,140.68
+82,Lite Notebook 82,6,TerraForm,66.72,148.46
+83,Fresh Pruner 83,12,VividLoop,74.75,107.62
+84,Heritage Backpack 84,3,VividLoop,112.70,254.76
+85,Smart T-Shirt 85,3,Astra,19.43,40.46
+86,Travel Board Game 86,7,FreshFold,266.85,372.61
+87,Compact Desk Organizer 87,9,FreshFold,196.55,436.96
+88,Classic Tea Box 88,8,Mavuno,208.83,306.65
+89,Core Guidebook 89,6,FreshFold,110.79,231.44
+90,Eco Mug Set 90,2,BlueCove,26.63,47.67
+91,Classic Charger 91,1,Luma,104.02,225.94
+92,Outdoor Mug Set 92,2,SokoWorks,115.10,159.99
+93,Travel Gym Bag 93,5,Atlas,78.37,166.59
+94,Bold Doll 94,7,Luma,59.58,156.58
+95,Heritage Speaker 95,1,VividLoop,105.80,167.04
+96,Smart Sunscreen 96,4,PeakHome,97.52,215.60
+97,Eco Doll 97,7,NovaWear,164.84,382.44
+98,Classic Cookware Set 98,2,TerraForm,5.33,9.06
+99,Travel Car Vacuum 99,11,TerraForm,186.75,332.96
+100,Smart Doll 100,7,Atlas,139.45,275.24
+101,Essential Journal 101,6,BrightCart,287.50,401.28
+102,Outdoor Mouse Pad 102,9,BrightCart,39.14,64.56
+103,Travel Hair Dryer 103,4,VividLoop,25.60,48.74
+104,Bold Coffee Beans 104,8,FreshFold,252.27,434.95
+105,Compact Cookware Set 105,2,UrbanNest,204.03,325.71
+106,Premium Jump Starter 106,11,BrightCart,302.51,433.76
+107,Eco Car Vacuum 107,11,Everly,31.24,55.81
+108,Wireless Tool Kit 108,11,Atlas,122.75,222.56
+109,Outdoor Doll 109,7,UrbanNest,113.04,157.78
+110,Outdoor Dumbbell 110,5,NovaWear,108.24,195.44
+111,Flex Jump Starter 111,11,Atlas,72.88,200.81
+112,Core Seat Cover 112,11,TerraForm,158.28,332.48
+113,Flex Tablet Stand 113,1,Mavuno,64.79,95.81
+114,Outdoor Serum 114,4,VividLoop,79.93,158.71
+115,Active Gym Bag 115,5,Luma,226.59,331.71
+116,Studio RC Car 116,7,SokoWorks,184.16,371.26
+117,Heritage Lamp 117,2,TerraForm,142.36,375.68
+118,Heritage Tea Box 118,8,BlueCove,58.70,120.36
+119,Heritage Food Bowl 119,10,Atlas,176.95,264.15
+120,Wireless Cat Tree 120,10,Astra,46.23,89.38
+121,Travel Garden Hose 121,12,BrightCart,132.18,206.55
+122,Compact Serum 122,4,PeakHome,146.37,209.94
+123,Bold Jump Starter 123,11,Everly,126.97,247.55
+124,Flex Lamp 124,2,PeakHome,39.21,59.58
+125,Eco Seed Kit 125,12,BlueCove,147.88,358.58
+126,Heritage T-Shirt 126,3,Luma,102.58,154.00
+127,Classic Garden Hose 127,12,Everly,86.26,147.93
+128,Lite Planter 128,12,Everly,77.34,120.62
+129,Smart Sneakers 129,3,PeakHome,178.76,266.28
+130,Pro Journal 130,6,PeakHome,99.18,142.77
+131,Studio Lamp 131,2,Northline,264.41,430.01
+132,Lite Keyboard 132,1,PeakHome,262.30,427.69
+133,Flex Serum 133,4,Northline,134.25,236.35
+134,Core Desk Chair 134,9,Northline,71.36,180.16
+135,Premium Jacket 135,3,Kibo,163.58,237.37
+136,Wireless Pet Bed 136,10,BrightCart,129.48,299.37
+137,Lite Backpack 137,3,BrightCart,81.25,213.14
+138,Bold Serum 138,4,VividLoop,194.51,438.59
+139,Max Solar Light 139,12,SokoWorks,169.77,294.72
+140,Lite Food Bowl 140,10,NovaWear,16.26,24.33
+141,Core Blender 141,2,NovaWear,44.36,67.70
+142,Everyday Guidebook 142,6,BrightCart,74.15,162.48
+143,Studio Backpack 143,3,Everly,77.83,177.68
+144,Heritage Solar Light 144,12,BrightCart,56.15,85.25
+145,Flex Planner 145,6,SokoWorks,7.49,11.31
+146,Compact Pen Set 146,9,UrbanNest,80.23,212.07
+147,Outdoor Notebook 147,6,SokoWorks,66.89,136.19
+148,Travel Notebook 148,6,Mavuno,247.48,438.24
+149,Core Mouse Pad 149,9,PeakHome,19.44,37.56
+150,Heritage Serum 150,4,BlueCove,73.03,200.70
+151,Travel Mouse Pad 151,9,VividLoop,53.16,79.88
+152,Active Notebook 152,6,SokoWorks,71.73,142.71
+153,Everyday RC Car 153,7,BrightCart,100.40,192.16
+154,Everyday Leash 154,10,FreshFold,123.49,266.01
+155,Heritage T-Shirt 155,3,UrbanNest,107.09,265.23
+156,Studio Monitor Arm 156,9,TerraForm,84.89,171.32
+157,Classic Pet Bed 157,10,Kibo,32.42,55.79
+158,Wireless Snack Pack 158,8,VividLoop,61.13,117.45
+159,Flex Cookware Set 159,2,VividLoop,21.06,37.18
+160,Active Doll 160,7,TerraForm,91.11,137.20
+161,Compact Journal 161,6,FreshFold,85.43,195.62
+162,Lite Sunscreen 162,4,Northline,59.31,104.32
+163,Everyday Cat Tree 163,10,Mavuno,12.59,28.82
+164,Lite Sunscreen 164,4,Astra,70.24,101.21
+165,Premium Journal 165,6,FreshFold,247.54,441.34
+166,Flex Watch 166,3,Mavuno,238.57,334.21
+167,Compact Guidebook 167,6,Astra,126.81,322.35
+168,Wireless Gym Bag 168,5,Atlas,254.46,369.60
+169,Premium Phone Mount 169,11,UrbanNest,154.87,340.26
+170,Essential Mug Set 170,2,FreshFold,214.21,383.36
+171,Max Hair Dryer 171,4,VividLoop,183.85,396.59
+172,Outdoor Watch 172,3,Atlas,114.62,322.22
+173,Outdoor Tool Kit 173,11,Astra,203.26,371.79
+174,Classic Guidebook 174,6,TerraForm,111.97,183.39
+175,Lite Building Set 175,7,FreshFold,156.40,296.95
+176,Lite Leash 176,10,Everly,59.04,109.75
+177,Smart Yoga Mat 177,5,Astra,219.03,401.14
+178,Fresh Coffee Beans 178,8,NovaWear,122.25,291.67
+179,Smart Storage Bin 179,2,Kibo,152.99,376.95
+180,Travel Water Bottle 180,5,VividLoop,15.56,25.34
+181,Fresh RC Car 181,7,Everly,90.47,146.43
+182,Outdoor Mouse Pad 182,9,Luma,140.24,229.66
+183,Eco Tea Box 183,8,Northline,42.06,70.56
+184,Classic Headphones 184,1,TerraForm,134.14,307.10
+185,Outdoor Mouse Pad 185,9,Astra,21.09,30.54
+186,Wireless Monitor Arm 186,9,Northline,108.59,157.72
+187,Max Leash 187,10,TerraForm,90.68,218.01
+188,Heritage Phone Mount 188,11,BrightCart,86.39,178.24
+189,Studio Hair Dryer 189,4,UrbanNest,8.72,19.08
+190,Eco Sneakers 190,3,Northline,253.26,355.99
+191,Eco Leash 191,10,NovaWear,93.50,166.03
+192,Everyday Coffee Beans 192,8,NovaWear,235.91,366.19
+193,Essential Journal 193,6,Mavuno,133.88,254.86
+194,Max Speaker 194,1,BlueCove,167.82,237.60
+195,Outdoor Keyboard 195,1,PeakHome,161.14,301.34
+196,Everyday Hair Dryer 196,4,VividLoop,144.14,388.79
+197,Studio Lamp 197,2,NovaWear,238.29,378.86
+198,Fresh Solar Light 198,12,Kibo,127.09,344.35
+199,Smart Sneakers 199,3,TerraForm,263.56,373.57
+200,Studio Storage Bin 200,2,Kibo,103.71,197.09
+201,Essential Keyboard 201,1,BlueCove,175.07,365.46
+202,Flex Doll 202,7,Everly,239.01,336.20
+203,Core Granola 203,8,Kibo,10.59,19.18
+204,Studio Pet Bed 204,10,VividLoop,82.75,175.35
+205,Core Olive Oil 205,8,Kibo,185.46,317.79
+206,Lite Mug Set 206,2,BrightCart,198.77,380.06
+207,Studio Tea Box 207,8,Northline,238.50,357.15
+208,Bold Mouse Pad 208,9,Luma,60.46,143.14
+209,Wireless Serum 209,4,UrbanNest,6.79,11.74
+210,Premium Monitor Arm 210,9,Everly,107.34,228.03
+211,Wireless Cat Tree 211,10,PeakHome,44.53,106.05
+212,Classic Backpack 212,3,Northline,125.49,208.24
+213,Bold Treat Pack 213,10,Mavuno,120.12,271.27
+214,Wireless Notebook 214,6,TerraForm,130.44,210.50
+215,Max Speaker 215,1,Everly,139.42,374.99
+216,Outdoor Moisturizer 216,4,NovaWear,99.33,227.75
+217,Classic Puzzle 217,7,FreshFold,19.69,55.78
+218,Active Cookware Set 218,2,Kibo,125.08,176.23
+219,Premium Mug Set 219,2,Kibo,127.40,184.28
+220,Heritage Sunscreen 220,4,Astra,225.37,426.70
+221,Wireless Leash 221,10,NovaWear,108.19,257.60
+222,Fresh Keyboard 222,1,Atlas,80.02,196.33
+223,Premium Tablet Stand 223,1,TerraForm,277.41,400.79
+224,Max Leash 224,10,UrbanNest,207.31,328.14
+225,Studio Jacket 225,3,Luma,293.19,430.69
+226,Lite Yoga Mat 226,5,Atlas,90.17,253.66
+227,Studio Phone Mount 227,11,Mavuno,16.25,23.24
+228,Active Coffee Beans 228,8,Everly,73.52,121.26
+229,Everyday Tool Kit 229,11,UrbanNest,163.84,292.97
+230,Flex Planner 230,6,FreshFold,116.18,219.32
+231,Bold Seed Kit 231,12,BrightCart,143.89,281.61
+232,Fresh Granola 232,8,Mavuno,171.34,279.87
+233,Premium Training Shoes 233,5,PeakHome,259.05,379.00
+234,Premium Doll 234,7,Kibo,50.06,125.92
+235,Max Guidebook 235,6,BlueCove,137.83,296.86
+236,Bold Dumbbell 236,5,Northline,85.35,120.21
+237,Essential Hair Dryer 237,4,Kibo,83.19,116.05
+238,Core Board Game 238,7,SokoWorks,53.36,130.87
+239,Everyday Moisturizer 239,4,SokoWorks,36.46,67.95
+240,Classic Tablet Stand 240,1,Northline,172.64,445.78
+241,Lite Coffee Beans 241,8,TerraForm,50.27,91.04
+242,Travel Pen Set 242,9,Kibo,217.72,421.79
+243,Heritage Keyboard 243,1,BrightCart,116.42,270.33
+244,Active Cookware Set 244,2,UrbanNest,156.67,222.26
+245,Max Guidebook 245,6,NovaWear,67.67,112.09
+246,Outdoor Blender 246,2,VividLoop,265.25,392.10
+247,Bold Tea Box 247,8,Astra,152.97,402.82
+248,Outdoor Snack Pack 248,8,Astra,21.18,60.42
+249,Lite Storage Bin 249,2,PeakHome,108.12,245.85
+250,Pro Tablet Stand 250,1,Luma,166.07,319.27
+251,Eco Doll 251,7,Astra,19.56,55.60
+252,Compact Mouse Pad 252,9,SokoWorks,131.07,246.72
+253,Premium RC Car 253,7,VividLoop,61.05,134.88
+254,Classic Planner 254,6,NovaWear,183.61,342.33
+255,Outdoor Hair Dryer 255,4,Everly,83.14,119.22
+256,Outdoor Doll 256,7,Mavuno,35.65,58.26
+257,Smart Headphones 257,1,Everly,171.47,246.29
+258,Flex Watch 258,3,Atlas,280.95,398.16
+259,Flex Solar Light 259,12,UrbanNest,5.78,14.36
+260,Pro Water Bottle 260,5,UrbanNest,158.85,251.44

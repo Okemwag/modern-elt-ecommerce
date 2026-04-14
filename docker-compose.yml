@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: ecommerce_source_postgres
+    environment:
+      POSTGRES_DB: ecommerce
+      POSTGRES_USER: ecommerce
+      POSTGRES_PASSWORD: ecommerce
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./source_postgres/init:/docker-entrypoint-initdb.d:ro
+      - ecommerce_source_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  ecommerce_source_postgres_data:
