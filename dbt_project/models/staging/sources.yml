@@ -1,0 +1,38 @@
+version: 2
+
+sources:
+  - name: airbyte_bronze
+    database: "{{ env_var('DBT_DATABRICKS_CATALOG', 'ecommerce') }}"
+    schema: bronze
+    description: Raw Airbyte-loaded source tables.
+    tables:
+      - name: customers_raw
+        description: Raw customers from PostgreSQL.
+        loaded_at_field: _airbyte_loaded_at
+        freshness:
+          warn_after: {count: 24, period: hour}
+          error_after: {count: 48, period: hour}
+      - name: orders_raw
+        description: Raw orders from PostgreSQL.
+        loaded_at_field: _airbyte_loaded_at
+        freshness:
+          warn_after: {count: 12, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: order_items_raw
+        description: Raw order items from PostgreSQL.
+        loaded_at_field: _airbyte_loaded_at
+        freshness:
+          warn_after: {count: 12, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: payments_raw
+        description: Raw payments from PostgreSQL.
+        loaded_at_field: _airbyte_loaded_at
+        freshness:
+          warn_after: {count: 12, period: hour}
+          error_after: {count: 24, period: hour}
+      - name: products_raw
+        description: Raw products from CSV.
+      - name: categories_raw
+        description: Raw categories from CSV.
+      - name: regions_raw
+        description: Raw regions from CSV.
