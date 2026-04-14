@@ -374,7 +374,7 @@ Business logic layer for complex transformations:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/modern-elt-ecommerce.git
+git clone https://github.com/Okemwag/modern-elt-ecommerce.git
 cd modern-elt-ecommerce
 ```
 
@@ -611,49 +611,3 @@ Access at `http://localhost:8080` to explore:
 
 ---
 
-## 🤝 Contributing
-
-This is a portfolio project, but suggestions and improvements are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 👤 Author
-
-**Your Name**
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
-
----
-
-## 🙏 Acknowledgments
-
-- **dbt Labs** for the transformation framework
-- **Databricks** for the lakehouse platform
-- **Airbyte** for open-source data integration
-- The data engineering community for best practices and inspiration
-
----
-
-## 📞 Support
-
-For questions or issues:
-- Open an issue in this repository
-- Contact via [email@example.com](mailto:email@example.com)
-- Review the [docs/](docs/) folder for detailed guides
-
----
-
-**Built with ❤️ by data engineers, for data engineers**
